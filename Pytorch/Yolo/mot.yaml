@@ -1,0 +1,12 @@
+verbose: False
+
+img_size: 640
+epochs: 50
+batch_size: 8
+
+#for training 
+mode: 'train'
+data: "/home/modesto/PycharmProjects/compressed_tracking/datasets/MOT20/yolo/dataset.yaml"
+output: "yolov8n_mot_ch"
+model: weight/yolov9s.pt 
+resume: False
